@@ -3,7 +3,7 @@
 	padding: 0;
 	text-align: center;
 	font-family: "Inter";
-	border: 1px solid red;
+	color: #fafafa;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
-	background-color: black;
+	background-color: #645986;
 }
 
 section{
@@ -19,10 +19,12 @@ section{
 	flex-direction: column;
 	width: 300px;
 	height: 350px;
-	background-color: gray;
+	background-color: #4e0250;
 	border-radius: 5px;
 	justify-content: center;
 	align-items: center;
+	border: 3px solid #801a86;
+	box-shadow: 15px 15px 45px 10px #801a86;
 }
 
 h1{
@@ -38,6 +40,12 @@ p{
 
 span{
 	font-size: 70px;
+	background-color: #801a86;
+	width: 90px;
+	height: 90px;
+	margin-bottom: 15px;
+	border: 2px solid #fafafa;
+	border-radius: 7px;
 }
 
 #controls{
@@ -48,7 +56,9 @@ span{
 }
 
 .btn{
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
+	font-size: 40px;
+	background-color: #801a86;
 }
